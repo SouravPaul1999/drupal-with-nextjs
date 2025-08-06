@@ -1,0 +1,14 @@
+uuid: edce205e-4790-477e-a006-b44f9137330f
+langcode: en
+status: true
+dependencies:
+  module:
+    - graphql
+id: api_creator
+label: 'API creator'
+weight: 4
+is_admin: false
+permissions:
+  - 'execute graphql_compose_server arbitrary graphql requests'
+  - 'execute graphql_compose_server persisted graphql requests'
+  - 'use graphql_compose_server graphql explorer'

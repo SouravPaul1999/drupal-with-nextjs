@@ -1,0 +1,8 @@
+name: drupal11-next-app
+recipe: drupal11
+config:
+  via: nginx
+  webroot: drupal11-next-app/web
+  database: postgres
+  xdebug: true
+

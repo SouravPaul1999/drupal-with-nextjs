@@ -1,0 +1,14 @@
+uuid: cae60328-bab6-422f-8237-0aab289d06af
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.api_creator
+  module:
+    - user
+id: user_remove_role_action.api_creator
+label: 'Remove the API creator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: api_creator

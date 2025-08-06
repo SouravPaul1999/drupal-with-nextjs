@@ -1,0 +1,14 @@
+uuid: e8cf2f9c-78bc-4fb0-9333-97840d8f3843
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.api_creator
+  module:
+    - user
+id: user_add_role_action.api_creator
+label: 'Add the API creator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: api_creator
